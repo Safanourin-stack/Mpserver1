@@ -68,7 +68,7 @@ function Todo() {
     <div>
       <h1 className='text-info'><b>TODO LIST</b></h1>
       <form >
-       <div className='d-flex container w-50 mt-5 '>
+       <div className='d-flex container w-100 mt-5 '>
          <div className='w-75'>
             <input className='form-control shadow-lg rounded p-3' id='ll' placeholder='Add Anything'
               type="text"
@@ -86,7 +86,7 @@ function Todo() {
 {
    gd.map((item)=>(
       
-<div className='mt-2 w-75 d-flex container justify-content-between p-3 bg-secondary rounded shadow-lg'> 
+<div className='mt-2 w-100 d-flex container justify-content-between p-3 bg-secondary rounded shadow-lg'> 
   <div className=''><p>{item.todolist}</p></div> 
 <div className='d-flex justify-content-between  '>
 <div><button className='btn btn-secondary' onClick={()=>{edit(item.id,item)}}><i className="fa-regular fa-pen-to-square" style={{color: "#010813",}} /></button></div>
